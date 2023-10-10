@@ -1,6 +1,7 @@
 package com.fct.michiapp.model.repository;
 
 import com.fct.michiapp.model.entities.Users;
+import org.h2.engine.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
@@ -10,4 +11,7 @@ public interface UserRepository extends CrudRepository<Users, Integer>, UserRepo
 
 	@Query(value = "SELECT id FROM users WHERE email = ?1", nativeQuery = true)
 	Integer findByEmail(String email);
+
+	@Query(value = "SELECT * FROM users WHERE id = ?1", nativeQuery = true)
+	Users findUserById(Integer userId);
 }

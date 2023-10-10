@@ -19,18 +19,15 @@ public class UserRepositoryImpl implements UserRepositoryCustom {
     @Override
     public List<UserAnimalData> findNearUsers(String userCity) {
         Query q = em.createNativeQuery(
-                "SELECT u.id, u.name, a.animal_name, ai.img_array, ai.img_type, d.distance as distance " +
+                "SELECT u.id, u.name, a.animal_name, ai.img_array, ai.img_type, 0 as distance " +
                         "FROM (SELECT user_id, array_to_string(array_agg(img_encoded), ',') AS img_array, " +
                         "array_to_string(array_agg(img_type), ',') AS img_type " +
                         "FROM AnimalImage GROUP BY user_id) ai " +
                         "INNER JOIN Animal a ON (a.user_id = ai.user_id) " +
                         "INNER JOIN users u  ON (u.id = ai.user_id) " +
-                        "INNER JOIN (SELECT c1.id, c1.name AS name1, c2.name AS name2, distance(c1.lat, c2.lat, c1.lng, c2.lng) AS distance " +
-                        "FROM City c1, City c2 " +
-                        "WHERE c2.name LIKE ?1 " +
-                        ") AS d ON (d.id = u.city_id) "
-                , "UserAnimalDataMapping");
-        q.setParameter(1, userCity);
+                        "WHERE u.id > 1",
+                "UserAnimalDataMapping");
+        //q.setParameter(1, userCity);
         try {
             return (List<UserAnimalData>) q.getResultList();
         } catch (NoResultException e) {

@@ -50,15 +50,22 @@ public class UserSettingsController {
 
 	@PostMapping("/addusersettings")
 	public ResponseEntity<String> addUserSettings(@RequestBody AddUserSettingsRequest usApi) {
-		Users u = userRepository.findById(usApi.getId()).orElse(null);
-		Animal a = animalRepository.getAnimalById(usApi.getId());
-		if (u == null || a == null) return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("User or animal not found");
-		if (!usApi.getName().isEmpty()) u.setName(usApi.getName());
-		if (usApi.getCityId() != 0) u.setCityId(usApi.getCityId());
-		if (!usApi.getAnimalName().isEmpty()) a.setAnimalName((usApi.getAnimalName()));
-		userRepository.save(u);
-		animalRepository.save(a);
-		return ResponseEntity.ok("User settings added");
+		try {
+			Users u = userRepository.findUserById(usApi.getId());
+			System.out.println(usApi.getId());
+			Animal a = animalRepository.getAnimalByUserId(usApi.getId());
+			if (u == null || a == null) return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("User or animal not found");
+			if (!usApi.getName().isEmpty()) u.setName(usApi.getName());
+			if (usApi.getCityId() != 0) u.setCityId(usApi.getCityId());
+			if (!usApi.getAnimalName().isEmpty()) a.setAnimalName((usApi.getAnimalName()));
+			userRepository.save(u);
+			animalRepository.save(a);
+			return ResponseEntity.ok("User settings added");
+		} catch (Exception ex) {
+			System.out.println("Error adding usersettings" + ex.getMessage());
+			ex.printStackTrace();
+			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Error processing the request.");
+		}
 	}
 
 	@PostMapping("/addprofileimage")

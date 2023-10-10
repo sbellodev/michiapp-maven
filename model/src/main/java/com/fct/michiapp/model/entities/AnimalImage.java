@@ -28,4 +28,24 @@ public class AnimalImage {
 		this.imgEncoded = imgEncoded;
 		this.imgType = imgType;
 	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public Integer getUserId() {
+		return userId;
+	}
+
+	public String getAnimalImg() {
+		return animalImg;
+	}
+
+	public String getImgEncoded() {
+		return imgEncoded;
+	}
+
+	public String getImgType() {
+		return imgType;
+	}
 }

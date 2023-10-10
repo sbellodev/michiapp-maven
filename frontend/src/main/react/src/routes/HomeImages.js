@@ -43,7 +43,9 @@ const Slider = ({ slides }) => {
   };
 
   useEffect(() => {
-    let imgLen = slides[currentAnimal].animalImg.length;
+    let anImg = slides[currentAnimal]?.animalImg?.length;
+    if(!anImg) return;
+    let imgLen =  anImg ?? 0;
     if (currentImg === 0) {
       progressBarEl.current.style.width = 100 / imgLen - 5 + "%";
     } else {

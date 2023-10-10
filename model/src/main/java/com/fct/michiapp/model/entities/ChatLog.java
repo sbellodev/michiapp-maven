@@ -28,4 +28,12 @@ public class ChatLog {
 		this.message = message;
 		this.createdAt = new Timestamp(System.currentTimeMillis());
 	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public Timestamp getCreatedAt() {
+		return createdAt;
+	}
 }

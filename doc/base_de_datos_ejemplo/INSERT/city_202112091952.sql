@@ -1,4 +1,4 @@
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Madrid',40.4167,-3.7167),
 	 ('Barcelona',41.3825,2.1769),
 	 ('Sevilla',37.39,-5.99),
@@ -9,7 +9,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Murcia',37.9861,-1.1303),
 	 ('Las Palmas',28.1272,-15.4314),
 	 ('A Coruña',43.3713,-8.4188);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Bilbao',43.2569,-2.9236),
 	 ('Alicante',38.3453,-0.4831),
 	 ('Córdoba',37.8845,-4.7796),
@@ -20,7 +20,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Granada',37.1781,-3.6008),
 	 ('Elche',38.2669,-0.6983),
 	 ('Badalona',41.4333,2.2333);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Tarrasa',41.5611,2.0081),
 	 ('Sabadell',41.5483,2.1075),
 	 ('Oviedo',43.36,-5.845),
@@ -31,7 +31,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Santa Cruz',28.4667,-16.25),
 	 ('León',42.6056,-5.57),
 	 ('Almería',36.8403,-2.4681);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Fuenlabrada',40.2833,-3.8),
 	 ('Logroño',42.465,-2.4456),
 	 ('Leganés',40.3281,-3.7644),
@@ -42,7 +42,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Castellón de la Plana',39.9831,-0.0331),
 	 ('Getafe',40.3047,-3.7311),
 	 ('Albacete',38.9956,-1.8558);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Burgos',42.35,-3.6822),
 	 ('Guadalajara',40.6337,-3.1674),
 	 ('La Laguna',28.4853,-16.3167),
@@ -53,7 +53,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Huelva',37.25,-6.95),
 	 ('Tarragona',41.1187,1.2453),
 	 ('Dos Hermanas',37.2836,-5.9222);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Torrejón de Ardoz',40.4614,-3.4978),
 	 ('Cádiz',36.535,-6.2975),
 	 ('Algeciras',36.1275,-5.4539),
@@ -64,7 +64,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('San Fernando',36.4667,-6.2),
 	 ('Santiago de Compostela',42.8778,-8.5444),
 	 ('Fuengirola',36.5417,-4.625);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Ciudad de Ceuta',35.8867,-5.3),
 	 ('San Baudilio de Llobregat',41.3458,2.0417),
 	 ('Toledo',39.8567,-4.0244),
@@ -75,7 +75,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Benalmádena',36.6,-4.5167),
 	 ('Viladecáns',41.3158,2.0194),
 	 ('Arrecife',28.9625,-13.5506);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('El Prat de Llobregat',41.3246,2.0953),
 	 ('Collado-Villalba',40.6333,-4.0083),
 	 ('Granollers',41.6083,2.2889),
@@ -86,7 +86,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Esplugas de Llobregat',41.3767,2.0858),
 	 ('Mollet',41.5356,2.2107),
 	 ('Ibiza',38.9089,1.4328);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Santurce-Antiguo',43.3303,-3.0314),
 	 ('Figueras',42.2667,2.965),
 	 ('San Felíu de Llobregat',41.3833,2.0439),
@@ -97,7 +97,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Alcantarilla',37.9722,-1.2094),
 	 ('Villafranca del Panadés',41.3447,1.6994),
 	 ('Blanes',41.674,2.7921);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Burjasot',39.5064,-0.4067),
 	 ('San Juan Despí',41.3668,2.057),
 	 ('Premiá de Mar',41.492,2.362),
@@ -108,7 +108,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Paiporta',39.4278,-0.4183),
 	 ('Durango',43.1689,-2.63),
 	 ('San Andrés de la Barca',41.4478,1.9769);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Barañáin',42.8,-1.6667),
 	 ('Martorell',41.4744,1.9305),
 	 ('Masnou',41.4817,2.3178),
@@ -119,7 +119,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Alboraya',39.5,-0.3522),
 	 ('San Juan de Aznalfarache',37.3667,-6.0167),
 	 ('San Juan de Alicante',38.4014,-0.4367);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Maracena',37.2,-3.6333),
 	 ('San Juan de Vilasar',41.5053,2.3928),
 	 ('Castilleja de la Cuesta',37.3833,-6.05),
@@ -130,7 +130,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('El Astillero',43.4017,-3.8194),
 	 ('Malgrat de Mar',41.6456,2.7428),
 	 ('Canovellas',41.6176,2.2814);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Albal',39.3972,-0.4156),
 	 ('Masamagrell',39.5703,-0.33),
 	 ('Ermúa',43.1875,-2.5008),
@@ -141,7 +141,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Cizur Mayor',42.7867,-1.6908),
 	 ('Canet de Mar',41.5911,2.5828),
 	 ('Mollerusa',41.6317,0.8961);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Tabernes Blanques',39.5064,-0.3626),
 	 ('Ogíjares',37.1167,-3.6),
 	 ('Mongat',41.4667,2.279),
@@ -152,7 +152,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Meliana',39.5272,-0.3492),
 	 ('Reinosa',43.0019,-4.1378),
 	 ('Lekeitio',43.3622,-2.4961);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Montmeló',41.5547,2.25),
 	 ('Rocafort',39.5306,-0.41),
 	 ('Ondárroa',43.3219,-2.4194),
@@ -163,7 +163,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Roquetas de Mar',36.7642,-2.6147),
 	 ('Lugo',43.0167,-7.55),
 	 ('Las Rozas de Madrid',40.4917,-3.8733);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Cáceres',39.4833,-6.3667),
 	 ('Lorca',37.6798,-1.6944),
 	 ('San Cugat del Vallés',41.4735,2.0852),
@@ -174,7 +174,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Torrevieja',37.9778,-0.6833),
 	 ('Chiclana de la Frontera',36.4167,-6.15),
 	 ('Torrente',39.4365,-0.4679);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('El Ejido',36.7831,-2.8167),
 	 ('Pontevedra',42.4333,-8.6333),
 	 ('Arona',28.0996,-16.6809),
@@ -185,7 +185,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Alcalá de Guadaira',37.3333,-5.85),
 	 ('Majadahonda',40.4728,-3.8722),
 	 ('Molina de Segura',38.0548,-1.2131);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Paterna',39.5028,-0.4406),
 	 ('Benidorm',38.5342,-0.1314),
 	 ('Villanueva y Geltrú',41.2243,1.7259),
@@ -196,7 +196,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Zamora',41.5033,-5.7556),
 	 ('San Vicente del Raspeig',38.3964,-0.5253),
 	 ('Alcoy',38.6983,-0.4736);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Motril',36.75,-3.5167),
 	 ('Ávila',40.65,-4.6833),
 	 ('Linares',38.0833,-3.6333),
@@ -207,7 +207,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('San Bartolomé',27.9254,-15.5726),
 	 ('Torrelavega',43.3531,-4.0458),
 	 ('Villareal',39.9378,-0.1014);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Colmenar Viejo',40.6589,-3.7658),
 	 ('Pola de Siero',43.3833,-5.65),
 	 ('Granadilla de Abona',28.1167,-16.5833),
@@ -218,7 +218,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Puertollano',38.6833,-4.1167),
 	 ('Alcira',39.15,-0.435),
 	 ('Manacor',39.57,3.2089);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Denia',38.8444,0.1111),
 	 ('Lucena',37.4,-4.4833),
 	 ('La Orotava',28.3667,-16.5167),
@@ -229,7 +229,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('San Fernando de Henares',40.4256,-3.5353),
 	 ('Plasencia',40.0275,-6.0908),
 	 ('Écija',37.5333,-5.0833);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Lloret de Mar',41.7,2.8333),
 	 ('Sama',43.3,-5.6833),
 	 ('Narón',43.55,-8.15),
@@ -240,7 +240,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Villagarcía de Arosa',42.5977,-8.7632),
 	 ('Marratxi',39.6421,2.7527),
 	 ('Lluchmayor',39.49,2.8915);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Mieres',43.2508,-5.7767),
 	 ('Oleiros',43.3333,-8.3166),
 	 ('Don Benito',38.9545,-5.8617),
@@ -251,7 +251,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Andújar',38.0392,-4.0506),
 	 ('Tomelloso',39.1578,-3.0208),
 	 ('Miranda de Ebro',42.6833,-2.9333);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Onteniente',38.8222,-0.6072),
 	 ('Águilas',37.4042,-1.5819),
 	 ('Burriana',39.8894,-0.0925),
@@ -262,7 +262,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Inca',39.7167,2.9167),
 	 ('Almendralejo',38.6833,-6.4167),
 	 ('Santa Pola',38.1897,-0.5556);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Ronda',36.7461,-5.1611),
 	 ('Tortosa',40.8125,0.5211),
 	 ('San Javier',37.8037,-0.8343),
@@ -273,7 +273,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Manises',39.4833,-0.45),
 	 ('Totana',37.7711,-1.5003),
 	 ('Castro-Urdiales',43.3844,-3.215);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Vall de Uxó',39.8236,-0.2317),
 	 ('San Pedro de Ribas',41.2592,1.773),
 	 ('San Roque',36.2097,-5.3844),
@@ -284,7 +284,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Culleredo',43.2883,-8.3894),
 	 ('San Andrés del Rabanedo',42.6167,-5.6),
 	 ('Arcos de la Frontera',36.75,-5.8);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Alcázar de San Juan',39.4056,-3.2056),
 	 ('Puerto de la Cruz',28.4167,-16.55),
 	 ('Salou',41.0796,1.1316),
@@ -295,7 +295,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Mahón',39.8894,4.2642),
 	 ('Crevillente',38.2486,-0.8089),
 	 ('Redondela',42.2833,-8.6167);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Rota',36.6167,-6.35),
 	 ('Campello',38.4275,-0.4011),
 	 ('Vinaroz',40.4686,0.4736),
@@ -306,7 +306,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Lepe',37.2542,-7.2033),
 	 ('Algemesí',39.1897,-0.4378),
 	 ('Benicarló',40.4167,0.4167);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Sueca',39.2026,-0.3112),
 	 ('Morón de la Frontera',37.1222,-5.4517),
 	 ('Lebrija',36.9194,-6.0781),
@@ -317,7 +317,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('La Oliva',28.6167,-13.9333),
 	 ('Cangas',42.2642,-8.7819),
 	 ('Santa Eugenia',42.5667,-8.9833);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('San Pedro del Pinatar',37.8167,-0.75),
 	 ('Cártama',36.7114,-4.6306),
 	 ('Paracuellos de Jarama',40.55,-3.5167),
@@ -328,7 +328,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Renedo',43.3578,-3.9581),
 	 ('Jumilla',38.4792,-1.325),
 	 ('Erandio',43.3047,-2.9731);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Villanueva de la Serena',38.9667,-5.8),
 	 ('Alhaurín el Grande',36.6331,-4.6831),
 	 ('Adra',36.7478,-3.0161),
@@ -339,7 +339,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Onda',39.9625,-0.2639),
 	 ('Cambre',43.283,-8.333),
 	 ('Villarrobledo',39.2667,-2.6);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Torrelodones',40.5778,-3.9278),
 	 ('Zarautz',43.2833,-2.1667),
 	 ('Bétera',39.5922,-0.4625),
@@ -350,7 +350,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Calpe',38.645,0.0442),
 	 ('Mairena del Alcor',37.3667,-5.7333),
 	 ('Bormujos',37.3667,-6.0667);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Ibi',38.6272,-0.5753),
 	 ('Los Barrios',36.1833,-5.4833),
 	 ('Vilaseca de Solcina',41.111,1.145),
@@ -361,7 +361,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Moncada',39.5333,-0.3833),
 	 ('Altea',38.5986,-0.0519),
 	 ('Puenteareas',42.1667,-8.5);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Esparraguera',41.5381,1.8692),
 	 ('Conil de la Frontera',36.2667,-6.0833),
 	 ('Cullera',39.1639,-0.2517),
@@ -372,7 +372,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Pilar de la Horadada',37.8667,-0.7833),
 	 ('Priego de Córdoba',37.4333,-4.1833),
 	 ('Las Torres de Cotillas',38.0264,-1.2436);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Alhama de Murcia',37.8514,-1.4264),
 	 ('Manlleu',42.0,2.2836),
 	 ('Aljaraque',37.2667,-7.0167),
@@ -383,7 +383,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Isla-Cristina',37.1992,-7.3214),
 	 ('Alcalá la Real',37.45,-3.9167),
 	 ('Almoradí',38.1097,-0.7894);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Picasent',39.3611,-0.46),
 	 ('Pájara',28.35,-14.1),
 	 ('Nerja',36.7469,-3.879),
@@ -394,7 +394,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Aspe',38.3456,-0.7689),
 	 ('Palma del Río',37.7,-5.2833),
 	 ('Hernani',43.2667,-1.9667);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Güimar',28.315,-16.41),
 	 ('Puzol',39.6167,-0.3011),
 	 ('Carcagente',39.1222,-0.4489),
@@ -405,7 +405,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Cabra',37.4667,-4.4333),
 	 ('Requena',39.4861,-1.1017),
 	 ('Porriño',42.1667,-8.6167);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('La Estrada',42.7,-8.4833),
 	 ('El Viso del Alcor',37.3833,-5.7167),
 	 ('Lalín',42.65,-8.1167),
@@ -416,7 +416,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Moaña',42.2833,-8.75),
 	 ('Cardedeu',41.6406,2.3594),
 	 ('Callosa de Segura',38.1225,-0.8797);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Utebo',41.7141,-0.9944),
 	 ('Amorebieta',43.2192,-2.7342),
 	 ('Silla',39.3618,-0.4103),
@@ -427,7 +427,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Atarfe',37.2229,-3.6899),
 	 ('Albolote',37.2306,-3.6569),
 	 ('Baena',37.6167,-4.3167);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Guernica y Luno',43.3167,-2.6667),
 	 ('Villaquilambre',42.6167,-5.6),
 	 ('La Nucía',38.6172,-0.1231),
@@ -438,7 +438,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Lora del Río',37.65,-5.5167),
 	 ('Guadix',37.3,-3.1333),
 	 ('Torredembarra',41.1457,1.3957);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('San Celoni',41.6895,2.4897),
 	 ('Felanitx',39.4692,3.1481),
 	 ('Torrox',36.75,-3.95),
@@ -449,7 +449,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Benavente',42.0031,-5.6742),
 	 ('Munguía',43.3547,-2.8472),
 	 ('Manzanares',38.9964,-3.3731);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Daimiel',39.0833,-3.6167),
 	 ('Sangenjo',42.4017,-8.8067),
 	 ('Balaguer',41.7904,0.8056),
@@ -460,7 +460,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Poyo',42.4333,-8.6667),
 	 ('La Garriga',41.6804,2.2833),
 	 ('Berga',42.1,1.8456);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('La Algaba',37.45,-6.0),
 	 ('Los Alcázares',37.7436,-0.8497),
 	 ('Bermeo',43.42,-2.7264),
@@ -471,7 +471,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Pozoblanco',38.3833,-4.85),
 	 ('Fuente-Álamo de Murcia',37.7394,-1.1881),
 	 ('Zafra',38.4167,-6.4167);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Mula',38.0419,-1.4906),
 	 ('Cubellas',41.21,1.6736),
 	 ('Manilva',36.3833,-5.25),
@@ -482,7 +482,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Santomera',38.0617,-1.0492),
 	 ('Espartinas',37.3833,-6.1167),
 	 ('Las Cabezas de San Juan',36.9817,-5.9406);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Piera',41.5222,1.7494),
 	 ('Guardamar del Segura',38.0897,-0.655),
 	 ('Arzúa',42.9167,-8.2167),
@@ -493,7 +493,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Sopelana',43.3814,-2.9792),
 	 ('Punta Umbría',37.1667,-6.95),
 	 ('Corbera de Llobregat',41.4169,1.9314);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Miguelturra',38.9647,-3.8911),
 	 ('Santa Úrsula',28.4253,-16.4917),
 	 ('La Roda',39.207,-2.1604),
@@ -504,7 +504,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Fraga',41.52,0.35),
 	 ('Azpeitia',43.1819,-2.2653),
 	 ('La Carolina',38.2667,-3.6167);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Vergara',43.1175,-2.4133),
 	 ('San Carlos de la Rápita',40.6203,0.5927),
 	 ('Andoain',43.2167,-2.0167),
@@ -515,7 +515,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Gondomar',42.1111,-8.7611),
 	 ('Cehegín',38.0925,-1.7989),
 	 ('Bollullos par del Condado',37.3358,-6.5364);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Noya',42.7833,-8.8833),
 	 ('Villaviciosa',43.4833,-5.4333),
 	 ('Cuevas del Almanzora',37.3,-1.8667),
@@ -526,7 +526,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Cambados',42.5,-8.8),
 	 ('La Carlota',37.6667,-4.9333),
 	 ('Pilas',37.3017,-6.2986);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Guia',28.1389,-15.6328),
 	 ('Torre del Campo',37.7667,-3.8833),
 	 ('Canals',38.9611,-0.585),
@@ -537,7 +537,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Santa Cruz de Bezana',43.4442,-3.9031),
 	 ('Llanera',43.4667,-5.9333),
 	 ('Vilanova del Camí',41.5733,1.6381);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('San Agustín de Guadalix',40.6781,-3.615),
 	 ('Verín',41.9408,-7.4358),
 	 ('Torredonjimeno',37.7667,-3.95),
@@ -548,7 +548,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Llanes',43.4214,-4.7564),
 	 ('Sant Sadurní d’Anoia',41.4261,1.785),
 	 ('Nules',39.8525,-0.1506);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Aguilar',37.5167,-4.65),
 	 ('Campo de Criptana',39.4,-3.1167),
 	 ('Sarria',42.7833,-7.4167),
@@ -559,7 +559,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Abarán',38.2031,-1.4003),
 	 ('Brenes',37.55,-5.8667),
 	 ('Argentona',41.5558,2.4025);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Pallejá',41.4242,1.9978),
 	 ('Teror',28.059,-15.5476),
 	 ('Fene',43.4667,-8.1667),
@@ -570,7 +570,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Salobreña',36.7467,-3.5869),
 	 ('Valverde del Camino',37.5667,-6.75),
 	 ('Villafranca de los Barros',38.5667,-6.3333);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Gibraleón',37.3753,-6.9694),
 	 ('Peligros',37.2333,-3.6333),
 	 ('Vejer de la Frontera',36.25,-5.9667),
@@ -581,7 +581,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Benifayó',39.2847,-0.4281),
 	 ('Estepa',37.2917,-4.8792),
 	 ('Ocaña',39.9569,-3.4967);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Santañy',39.3542,3.1283),
 	 ('Bayona',42.1178,-8.8506),
 	 ('Capdepera',39.7,3.4333),
@@ -592,7 +592,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Bolaños de Calatrava',38.8831,-3.7167),
 	 ('Albox',37.3833,-2.1333),
 	 ('Cangas de Narcea',43.1714,-6.5389);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Socuéllamos',39.2933,-2.7942),
 	 ('Son Servera',39.6208,3.36),
 	 ('San Andrés de Llevaneras',41.5733,2.4828),
@@ -603,7 +603,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Olivenza',38.6858,-7.1008),
 	 ('Elgóibar',43.2142,-2.4169),
 	 ('Azcoitia',43.1792,-2.3106);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Medina Sidonia',36.4667,-5.9167),
 	 ('Laredo',43.4144,-3.41),
 	 ('Tegueste',28.5233,-16.3408),
@@ -614,7 +614,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Teulada',38.7292,0.1019),
 	 ('Oñate',43.0333,-2.4167),
 	 ('Andraitx',39.5746,2.4206);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Barbadanes',42.3003,-7.9064),
 	 ('Masanasa',39.4083,-0.3989),
 	 ('Utiel',39.5672,-1.2067),
@@ -625,7 +625,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Mancha Real',37.7833,-3.6),
 	 ('Campos del Puerto',39.4306,3.0194),
 	 ('Lardero',42.4261,-2.4614);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Sonseca',39.7,-3.95),
 	 ('Rianxo',42.65,-8.8167),
 	 ('Aizoáin',42.8356,-1.6394),
@@ -636,7 +636,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('La Puebla de Cazalla',37.2222,-5.3125),
 	 ('La Palma del Condado',37.3842,-6.5517),
 	 ('Astorga',42.4589,-6.0633);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Ripoll',42.2011,2.1903),
 	 ('Alella',41.4953,2.2958),
 	 ('Alberique',39.1167,-0.5211),
@@ -647,7 +647,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Tafalla',42.5289,-1.6736),
 	 ('Peñarroya-Pueblonuevo',38.3,-5.2667),
 	 ('Garrucha',37.1833,-1.8167);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Villacarrillo',38.1,-3.0833),
 	 ('Huétor-Tájar',37.1947,-4.0464),
 	 ('Bargas',39.94,-4.0194),
@@ -658,7 +658,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Castalla',38.5967,-0.6708),
 	 ('Alcaudete',37.5833,-4.1),
 	 ('Alcora',40.0667,-0.2);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Villanueva de Arosa',42.5628,-8.8278),
 	 ('La Guardia',41.9017,-8.8753),
 	 ('Pulpí',37.4019,-1.7508),
@@ -669,7 +669,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Amurrio',43.0528,-3.0014),
 	 ('Fortuna',38.1789,-1.1233),
 	 ('San Vicente de Castellet',41.6655,1.8641);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('El Álamo',40.2306,-3.9944),
 	 ('Calasparra',38.2306,-1.7),
 	 ('Santa María de Palautordera',41.6953,2.4458),
@@ -680,7 +680,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Binéfar',41.85,0.3),
 	 ('Illora',37.2883,-3.8797),
 	 ('Foz',43.5694,-7.2583);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Puentes de García Rodríguez',43.45,-7.8333),
 	 ('Caudete',38.7044,-0.9881),
 	 ('Tiana',41.4831,2.2697),
@@ -691,7 +691,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Fernán-Núñez',37.6667,-4.7167),
 	 ('Rute',37.3167,-4.3667),
 	 ('Masquefa',41.5036,1.8136);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Ribadeo',43.5336,-7.0403),
 	 ('Piedras Blancas',43.56,-5.976),
 	 ('Caldas de Reyes',42.6028,-8.6383),
@@ -702,7 +702,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Villarrubia de los Ojos',39.2167,-3.6),
 	 ('Alcarraz',41.5638,0.5241),
 	 ('Sevilla La Nueva',40.3475,-4.0272);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Umbrete',37.3667,-6.15),
 	 ('Grado',43.3881,-6.0736),
 	 ('Cuéllar',41.4009,-4.3136),
@@ -713,7 +713,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('La Victoria de Acentejo',28.4348,-16.4682),
 	 ('Solsona',41.9944,1.5178),
 	 ('Alcanar',40.543,0.4808);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('San Juan del Puerto',37.3167,-6.8333),
 	 ('Valsequillo de Gran Canaria',27.9808,-15.4989),
 	 ('Miajadas',39.15,-6.0667),
@@ -724,7 +724,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('El Campo',36.7522,-2.6839),
 	 ('Senmanat',41.6086,2.1358),
 	 ('Burela de Cabo',43.65,-7.4);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Alayor',39.9342,4.14),
 	 ('Arenys de Munt',41.6128,2.5403),
 	 ('San Fausto de Campcentellas',41.5061,2.24),
@@ -735,7 +735,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('El Molar',40.7336,-3.5814),
 	 ('Polinyá',41.5575,2.1562),
 	 ('Cervelló',41.3962,1.9589);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Cúllar-Vega',37.1531,-3.6706),
 	 ('Sauzal',28.4799,-16.4357),
 	 ('Santa Comba',43.0383,-8.8142),
@@ -746,7 +746,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Catral',38.1594,-0.805),
 	 ('San Sebastián de la Gomera',28.0922,-17.11),
 	 ('Montoro',38.0167,-4.3833);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Cistérniga',41.6167,-4.6833),
 	 ('Valldoreix',41.4678,2.0647),
 	 ('San Fructuoso de Bagés',41.7507,1.8727),
@@ -757,7 +757,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('El Espinar',40.7186,-4.2478),
 	 ('Loeches',40.3833,-3.4),
 	 ('Binisalem',39.6831,2.8333);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Puig',39.5896,-0.3031),
 	 ('Manzanares el Real',40.7272,-3.8611),
 	 ('Almagro',38.8878,-3.7122),
@@ -768,7 +768,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Tordesillas',41.5,-5.0),
 	 ('Padul',37.0244,-3.6267),
 	 ('Villamediana de Iregua',42.4264,-2.4181);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Redován',38.1139,-0.9056),
 	 ('Llagostera',41.8292,2.8933),
 	 ('Bembibre',42.6154,-6.417),
@@ -779,7 +779,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Bigastro',38.0631,-0.8956),
 	 ('Cabezón de la Sal',43.3075,-4.2325),
 	 ('Foyos',39.5386,-0.3567);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Ollería',38.9142,-0.5494),
 	 ('Canet de Berenguer',39.6794,-0.2206),
 	 ('Padrón',42.7381,-8.6603),
@@ -790,7 +790,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Monforte del Cid',38.3792,-0.7303),
 	 ('Campillos',37.05,-4.85),
 	 ('Monserrat',39.3575,-0.6031);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Aracena',37.8911,-6.5611),
 	 ('Nájera',42.4167,-2.7333),
 	 ('Cintruénigo',42.08,-1.805),
@@ -801,7 +801,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Cenes de la Vega',37.15,-3.5333),
 	 ('Arico el Nuevo',28.1904,-16.4977),
 	 ('Los Santos de Maimona',38.4489,-6.3839);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Pedreguer',38.7933,0.0342),
 	 ('Roquetas',40.8206,0.5025),
 	 ('Villanueva del Arzobispo',38.1667,-3.0),
@@ -812,7 +812,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Pinoso',38.4033,-1.0422),
 	 ('Valencina de la Concepción',37.4167,-6.0667),
 	 ('Valmaseda',43.1958,-3.1928);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Sampedor',41.7836,1.8392),
 	 ('Pravia',43.4833,-6.1),
 	 ('Arévalo',41.0667,-4.7167),
@@ -823,7 +823,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Puentedeume',43.4125,-8.1703),
 	 ('Caldas de Malavella',41.8387,2.8089),
 	 ('Centellas',41.7994,2.2217);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Almodóvar del Río',37.8,-5.0167),
 	 ('Gélida',41.4409,1.8647),
 	 ('Santa Eulalia de Ronsaná',41.6531,2.2261),
@@ -834,7 +834,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('La Puebla de Montalbán',39.8722,-4.3589),
 	 ('Villanueva del Ariscal',37.3833,-6.1333),
 	 ('Malagón',39.1833,-3.8667);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Abadiano Celayeta',43.1525,-2.6075),
 	 ('Cobeña',40.5669,-3.5069),
 	 ('Cox',38.1394,-0.8847),
@@ -845,7 +845,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Vega de San Mateo',28.0106,-15.5325),
 	 ('Azuaga',38.2589,-5.6778),
 	 ('Onil',38.6333,-0.6667);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Ondara',38.8261,0.0169),
 	 ('Callosa de Ensarriá',38.6514,-0.1228),
 	 ('Gerena',37.517,-6.15),
@@ -856,7 +856,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('El Paso',28.6513,-17.8806),
 	 ('Villamayor',41.0008,-5.6897),
 	 ('Guisona',41.7847,1.288);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Oroso',42.9833,-8.4333),
 	 ('Astigarraga',43.2833,-1.95),
 	 ('La Rambla',37.6,-4.7333),
@@ -867,7 +867,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Breña Alta',28.6333,-17.7667),
 	 ('Albuñol',36.8,-3.2),
 	 ('Montblanch',41.3764,1.1639);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Benacazón',37.35,-6.1833),
 	 ('Begas',41.3319,1.9228),
 	 ('Talayuela',39.9667,-5.6),
@@ -878,7 +878,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Villa del Río',37.9833,-4.2833),
 	 ('Bujalance',37.9,-4.3833),
 	 ('Cazorla',37.9,-3.0);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Derio',43.2917,-2.8858),
 	 ('Pedro Muñoz',39.4,-2.95),
 	 ('Arechavaleta',43.0361,-2.5044),
@@ -889,7 +889,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Algarrobo',36.7667,-4.0333),
 	 ('Huéscar',37.8,-2.5333),
 	 ('Dúrcal',36.9833,-3.5667);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Fuentes de Andalucía',37.4667,-5.3333),
 	 ('Roda de Bará',41.1857,1.4568),
 	 ('Moncófar',39.8025,-0.1339),
@@ -900,7 +900,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Benalup de Sidonia',36.3333,-5.8),
 	 ('Llissá de Vall',41.5936,2.2431),
 	 ('Náquera',39.6589,-0.4263);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('San Clemente',39.4039,-2.4294),
 	 ('Puerto Serrano',36.9333,-5.55),
 	 ('Fuente el Saz',40.6361,-3.5111),
@@ -911,7 +911,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Almacellas',41.7322,0.4372),
 	 ('Calamonte',38.89,-6.385),
 	 ('Argamasilla de Alba',39.1167,-3.1);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('San Luis',39.8494,4.2581),
 	 ('Casares',36.4444,-5.2728),
 	 ('Burguillos',37.5858,-5.9673),
@@ -922,7 +922,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Taradell',41.8737,2.2874),
 	 ('Constantí',41.1532,1.2143),
 	 ('Mojácar',37.1403,-1.8514);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Bergondo',43.3167,-8.2333),
 	 ('Venta de Baños',41.9333,-4.5),
 	 ('Negreira',42.911,-8.735),
@@ -933,7 +933,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('San Felíu de Codinas',41.6885,2.1647),
 	 ('La Canonja',41.1191,1.183),
 	 ('Ríudoms',41.1391,1.052);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Cedeira',43.65,-8.05),
 	 ('Fuente del Maestre',38.5289,-6.45),
 	 ('Moraleja',40.0667,-6.65),
@@ -944,7 +944,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Arbucias',41.8161,2.5142),
 	 ('Alcalá de Chivert',40.3042,0.2256),
 	 ('Alpicat',41.6681,0.5561);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Las Pedroñeras',39.45,-2.6667),
 	 ('Briviesca',42.55,-3.3167),
 	 ('San Antonio de Vilamajor',41.6726,2.4),
@@ -955,7 +955,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Valdoviño',43.6,-8.1331),
 	 ('Carral',43.2296,-8.356),
 	 ('Almensilla',37.3167,-6.1167);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Jaraiz de la Vera',40.0603,-5.755),
 	 ('Lezo',43.3167,-1.9),
 	 ('Vélez Rubio',37.65,-2.0667),
@@ -966,7 +966,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Miraflores de la Sierra',40.8114,-3.7686),
 	 ('Sarriá de Ter',42.0181,2.8261),
 	 ('Górliz-Elexalde',43.4167,-2.9333);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Moyá',41.8131,2.0971),
 	 ('Herrera',37.3667,-4.8333),
 	 ('Urnieta',43.2469,-1.9917),
@@ -977,7 +977,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('San Miguel de Salinas',37.9806,-0.7897),
 	 ('Sils',41.8094,2.7435),
 	 ('Usúrbil',43.2667,-2.05);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Gójar',37.1,-3.6),
 	 ('Pulianas',37.2167,-3.6),
 	 ('Arenas de San Pedro',40.2089,-5.0911),
@@ -988,7 +988,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Puebla de la Calzada',38.9,-6.6167),
 	 ('Breña Baja',28.6167,-17.7667),
 	 ('Outes',42.85,-8.9);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Tarazona de la Mancha',39.265,-1.9128),
 	 ('Villabona',43.1881,-2.0525),
 	 ('Suria',41.8311,1.7526),
@@ -999,7 +999,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Abanilla',38.2072,-1.0414),
 	 ('Noreña',43.3933,-5.7042),
 	 ('Aznalcóllar',37.5167,-6.2667);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Alcudia de Crespins',38.9708,-0.5908),
 	 ('Navás',41.8997,1.8786),
 	 ('Los Villares',37.6833,-3.8167),
@@ -1010,7 +1010,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Vilafant',42.2468,2.9379),
 	 ('Altafulla',41.1433,1.3769),
 	 ('Cartes',43.3256,-4.0681);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Anglés',41.9574,2.64),
 	 ('Coristanco',43.2,-8.75),
 	 ('Almodóvar del Campo',38.7186,-4.1667),
@@ -1021,7 +1021,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Tremp',42.1667,0.8946),
 	 ('Los Yébenes',39.5667,-3.8833),
 	 ('Alhama de Granada',37.0,-3.9833);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Constantina',37.8667,-5.6167),
 	 ('Argamasilla de Calatrava',38.7333,-4.0667),
 	 ('Vilanova de la Roca',41.5542,2.2886),
@@ -1032,7 +1032,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Paterna de Rivera',36.5167,-5.8667),
 	 ('Yeles',40.1167,-3.8),
 	 ('Alfacar',37.2333,-3.5667);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Órjiva',36.9,-3.4167),
 	 ('Chauchina',37.2,-3.7667),
 	 ('Arroyo de la Luz',39.484,-6.5846),
@@ -1043,7 +1043,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('La Guancha',28.3738,-16.6516),
 	 ('San Hilario Sacalm',41.8786,2.5079),
 	 ('Huelma',37.65,-3.45);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Torreblanca',40.2206,0.1953),
 	 ('Medina de Pomar',42.9333,-3.4833),
 	 ('Arafo',28.3404,-16.4173),
@@ -1054,7 +1054,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Prado del Rey',36.7833,-5.5667),
 	 ('La Cenia',40.6336,0.2853),
 	 ('Salteras',37.4167,-6.1);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Santa Marta de Ortigueira',43.6831,-7.85),
 	 ('Nueva-Carteya',37.5833,-4.4667),
 	 ('Porreras',39.5144,3.0237),
@@ -1065,7 +1065,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Deba',43.2955,-2.3538),
 	 ('Aceuchal',38.65,-6.4831),
 	 ('Arjona',37.935,-4.0569);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Algodonales',36.8811,-5.4056),
 	 ('San Ciprián de Viñas',42.2969,-7.8714),
 	 ('Casariche',37.2833,-4.75),
@@ -1076,7 +1076,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Borriol',40.0422,-0.0714),
 	 ('Agramunt',41.7863,1.0964),
 	 ('Alameda',37.2,-4.65);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Abegondo',43.2067,-8.31),
 	 ('Chinchón',40.1394,-3.4264),
 	 ('Malpica',43.3167,-8.8),
@@ -1087,7 +1087,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Villanueva del Trabuco',37.0286,-4.3381),
 	 ('San Vicente de Alcántara',39.3611,-7.1333),
 	 ('Simancas',41.5919,-4.8286);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Valencia de Alcántara',39.4133,-7.2436),
 	 ('Entrambasaguas',43.3778,-3.6767),
 	 ('Bellpuig',41.6267,1.0133),
@@ -1098,7 +1098,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Parres',43.3587,-5.1846),
 	 ('Mollina',37.1231,-4.6561),
 	 ('Montefrío',37.3211,-4.0111);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Nava',43.35,-5.5167),
 	 ('San Ildefonso',40.9017,-4.0067),
 	 ('Camariñas',43.13,-9.185),
@@ -1109,7 +1109,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Peal de Becerro',37.9,-3.1167),
 	 ('Esporlas',39.6662,2.5799),
 	 ('Alcover',41.2621,1.1711);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Otero de Rey',43.1025,-7.6136),
 	 ('Pedrera',37.2167,-4.8833),
 	 ('Alcalá de los Gazules',36.4667,-5.7167),
@@ -1120,7 +1120,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Almadén',38.7764,-4.8369),
 	 ('Quesada',37.85,-3.0667),
 	 ('Ribadavia',42.2833,-8.1333);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Marquina-Jemein',43.2689,-2.4964),
 	 ('La Cañiza',42.2128,-8.2744),
 	 ('Alcalá del Valle',36.9,-5.1667),
@@ -1131,7 +1131,7 @@ INSERT INTO public.city ("name",lat,lng) VALUES
 	 ('Peñafiel',41.6,-4.1167),
 	 ('Oliva de la Frontera',38.2764,-6.92),
 	 ('Valverde',27.8097,-17.9151);
-INSERT INTO public.city ("name",lat,lng) VALUES
+INSERT INTO city ("name",lat,lng) VALUES
 	 ('Castro de Rey',43.2079,-7.4001),
 	 ('Vedra',42.7833,-8.4667),
 	 ('Cerceda',43.1886,-8.4703),

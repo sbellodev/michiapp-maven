@@ -10,5 +10,5 @@ public interface AnimalRepository extends CrudRepository<Animal, Integer> {
 	Optional<Animal> findByUserId(Integer id);
 
 	@Query(value = "SELECT * FROM Animal WHERE user_id = ?1", nativeQuery = true)
-	Animal getAnimalById(Integer userId);
+	Animal getAnimalByUserId(Integer userId);
 }

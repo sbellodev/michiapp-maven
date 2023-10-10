@@ -118,5 +118,9 @@ public class Animal {
 		this.userId = userId;
 		this.animalName = animalName;
 	}
+
+	public void setAnimalName(String animalName) {
+		this.animalName = animalName;
+	}
 }
 

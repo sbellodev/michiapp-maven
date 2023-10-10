@@ -3,8 +3,11 @@
 -- Drop table
 
 -- DROP TABLE animal;
+CREATE SEQUENCE animal_userid_seq;
+CREATE SEQUENCE user_id_seq;
 
 CREATE TABLE animal (
+    id serial4 NOT NULL,
 	user_id int4 NOT NULL DEFAULT nextval('animal_userid_seq'::regclass),
 	animal_name text NULL,
 	user_name text NULL,
