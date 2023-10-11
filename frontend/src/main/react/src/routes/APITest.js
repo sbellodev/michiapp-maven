@@ -2,26 +2,22 @@ import styled from "styled-components";
 import React, { useState, useEffect } from "react";
 import {
   testGetUser,
-  testGetAnimal,
   testGetMatch,
   testGetUserSettings,
 } from "../widgets/Tests";
 import {
   getUserAPI,
-  getAnimalAPI,
   getMatchAPI,
   getUserSettingsAPI,
 } from "../widgets/Fetch";
 
 const APITest = () => {
   const [getUserResponse, setUserResponse] = useState("");
-  const [getAnimalResponse, setAnimalResponse] = useState("");
   const [getMatchResponse, setMatchResponse] = useState("");
   const [getUserSettingsResponse, setUserSettingsResponse] = useState("");
 
   useEffect(() => {
     getUserAPI(10).then((value) => setUserResponse(value));
-    getAnimalAPI(10).then((value) => setAnimalResponse(value));
     getMatchAPI(10).then((value) => setMatchResponse(value));
     getUserSettingsAPI(10).then((value) => setUserSettingsResponse(value));
   }, []);
@@ -65,16 +61,6 @@ const APITest = () => {
         User Settings Data
       </p>
       <br />
-      <p>
-        {(getAnimalResponse && testGetAnimal(getAnimalResponse, 2)) ||
-          "Ningún dato extraído ⚠️"}{" "}
-        Animal Response
-      </p>
-      <p>
-        {(getAnimalResponse && testGetAnimal(getAnimalResponse, 6)) ||
-          "Ningún dato extraído ⚠️"}{" "}
-        Animal Data
-      </p>
       <br />
     </Container>
   );

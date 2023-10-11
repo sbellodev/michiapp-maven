@@ -1,9 +1,7 @@
 package com.fct.michiapp.config;
 
 import lombok.extern.slf4j.Slf4j;
-import net.minidev.json.JSONObject;
-import net.minidev.json.parser.JSONParser;
-import net.minidev.json.parser.ParseException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Configuration;
@@ -20,13 +18,9 @@ import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker;
 import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
-import org.springframework.web.socket.server.standard.TomcatRequestUpgradeStrategy;
-import org.springframework.web.socket.server.support.DefaultHandshakeHandler;
 
-//import javax.mail.Message;
-import javax.mail.MessagingException;
-import java.security.Principal;
-import java.util.Arrays;
+
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -64,15 +58,15 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
             public Message<?> preSend(Message<?> message, MessageChannel channel) {
                 StompHeaderAccessor accessor = MessageHeaderAccessor.getAccessor(message, StompHeaderAccessor.class);
                 if (StompCommand.CONNECT.equals(accessor.getCommand())) {
-                    log.info("configureClientInboundChannel: " + message.getHeaders().toString());
+                    System.out.println("configureClientInboundChannel: " + message.getHeaders().toString());
                     LinkedMultiValueMap<String, String> nativeHeaders = message.getHeaders().get("nativeHeaders", LinkedMultiValueMap.class);
                     ConcurrentHashMap<String, String> simpSessionAttributes = message.getHeaders().get("simpSessionAttributes", ConcurrentHashMap.class);
 
                     String uuidPrincipal = simpSessionAttributes.get("__principal__");
                     String userId = nativeHeaders.getFirst("login");
 
-                    log.info("uuidPrincipal: " + uuidPrincipal);
-                    log.info("userId: " + userId);
+                    System.out.println("uuidPrincipal: " + uuidPrincipal);
+                    System.out.println("userId: " + userId);
 
                     userRelation.put(userId, uuidPrincipal);
                 }
