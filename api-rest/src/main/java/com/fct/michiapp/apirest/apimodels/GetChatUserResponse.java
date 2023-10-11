@@ -1,6 +1,4 @@
 package com.fct.michiapp.apirest.apimodels;
-
-import javax.persistence.Column;
 import java.io.Serializable;
 
 

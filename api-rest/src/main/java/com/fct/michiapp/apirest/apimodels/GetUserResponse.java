@@ -1,9 +1,5 @@
 package com.fct.michiapp.apirest.apimodels;
 
-import lombok.Data;
-import org.springframework.stereotype.Component;
-
-import javax.persistence.*;
 import java.io.Serializable;
 
 
