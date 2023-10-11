@@ -1,7 +1,6 @@
 package com.fct.michiapp.model.repository.imp;
 
 import com.fct.michiapp.model.entities.queries.ChatsData;
-import com.fct.michiapp.model.entities.queries.LikesPerUser;
 import com.fct.michiapp.model.repository.ChatUserRepositoryCustom;
 
 import javax.persistence.EntityManager;

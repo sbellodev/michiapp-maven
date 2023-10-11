@@ -1,6 +1,5 @@
 package com.fct.michiapp.apirest.mappers;
 
-import com.fct.michiapp.apirest.apimodels.AddChatLogRequest;
 import com.fct.michiapp.apirest.apimodels.GetChatLogResponse;
 import com.fct.michiapp.model.entities.ChatLog;
 import org.mapstruct.Mapper;

@@ -1,15 +1,8 @@
 package com.fct.michiapp.model.repository;
 
-import com.fct.michiapp.model.entities.Animal;
 import com.fct.michiapp.model.entities.AnimalImage;
-import com.fct.michiapp.model.entities.UserLike;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
-import java.util.Optional;
 
 public interface AnimalImageRepository extends CrudRepository<AnimalImage, Integer>, AnimalImageRepositoryCustom {
 	@Query(value = "SELECT COUNT(user_id) FROM animalimage WHERE user_id = ?1", nativeQuery = true)

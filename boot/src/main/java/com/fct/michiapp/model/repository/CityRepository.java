@@ -1,9 +1,6 @@
 package com.fct.michiapp.model.repository;
 
-import com.fct.michiapp.model.entities.Animal;
-import com.fct.michiapp.model.entities.ChatLog;
 import com.fct.michiapp.model.entities.City;
-import com.fct.michiapp.model.entities.UserLike;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
