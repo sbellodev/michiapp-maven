@@ -6,7 +6,7 @@ RUN mvn clean package -DskipTests
 
 # Final stage
 FROM adoptopenjdk:11-jre-hotspot
-WORKDIR /app
-COPY boot/target/boot-0.0.1-SNAPSHOT.jar demo.jar
+WORKDIR /boot
+COPY target/boot-0.0.1-SNAPSHOT.jar demo.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "demo.jar"]
