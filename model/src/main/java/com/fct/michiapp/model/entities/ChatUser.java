@@ -27,4 +27,8 @@ public class ChatUser {
 		this.user2Id = user2Id;
 		this.createdAt = new Timestamp(System.currentTimeMillis());
 	}
+
+	public Integer getId() {
+		return id;
+	}
 }

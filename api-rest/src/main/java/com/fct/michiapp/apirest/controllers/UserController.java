@@ -85,27 +85,4 @@ public class UserController {
 
 		return ResponseEntity.ok("User added");
 	}
-
-	@DeleteMapping("/deleteuser/{id}")
-	public ResponseEntity<String> deleteUser(@PathVariable Integer id) {
-		userRepository.deleteById(id);
-		return ResponseEntity.ok("User deleted");
-	}
-
-	@PutMapping("/updateuser/{id}")
-	public ResponseEntity<String> updateUser(@PathVariable Integer id, @RequestBody GetUserResponse uApi) {
-		Users user = userRepository.findById(id).orElse(null);
-		if (user == null) return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("User not found");
-		user.setName(uApi.getName());
-		userRepository.save(user);
-		return ResponseEntity.ok("User updated.");
-	}
-
-	@GetMapping("/testSession/{session}")
-	public ResponseEntity<String> sendToSession(@PathVariable String session) {
-		messagingTemplate.convertAndSendToUser(userRelation.get(session), "/queue/reply", "Mensaje enviado a la sesion");
-		System.out.print("Mensaje enviado a la sesion");
-		System.out.print(session);
-		return ResponseEntity.ok("Mensaje enviado a la sesion: " + userRelation.get(session));
-	}
 }

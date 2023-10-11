@@ -64,15 +64,15 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
             public Message<?> preSend(Message<?> message, MessageChannel channel) {
                 StompHeaderAccessor accessor = MessageHeaderAccessor.getAccessor(message, StompHeaderAccessor.class);
                 if (StompCommand.CONNECT.equals(accessor.getCommand())) {
-                    log.info("configureClientInboundChannel: " + message.getHeaders().toString());
+                    System.out.println("configureClientInboundChannel: " + message.getHeaders().toString());
                     LinkedMultiValueMap<String, String> nativeHeaders = message.getHeaders().get("nativeHeaders", LinkedMultiValueMap.class);
                     ConcurrentHashMap<String, String> simpSessionAttributes = message.getHeaders().get("simpSessionAttributes", ConcurrentHashMap.class);
 
                     String uuidPrincipal = simpSessionAttributes.get("__principal__");
                     String userId = nativeHeaders.getFirst("login");
 
-                    log.info("uuidPrincipal: " + uuidPrincipal);
-                    log.info("userId: " + userId);
+                    System.out.println("uuidPrincipal: " + uuidPrincipal);
+                    System.out.println("userId: " + userId);
 
                     userRelation.put(userId, uuidPrincipal);
                 }

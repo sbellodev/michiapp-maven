@@ -32,13 +32,6 @@ async function getUserLogin(data) {
     .catch(() => console.error("GET error."));
 }
 
-async function getAnimalAPI(id) {
-  const URL = server_host + "/michiapp/animal/" + id;
-  return fetch(URL)
-    .then((res) => res.json())
-    .catch(() => console.error("GET error."));
-}
-
 async function getChatsAPI(id) {
   const URL = server_host + "/michiapp/chats/" + id;
   return fetch(URL)
@@ -187,7 +180,6 @@ export {
   getUserAPI,
   getUsersAPI,
   getUserLogin,
-  getAnimalAPI,
   getChatAPI,
   getChatsAPI,
   getMatchAPI,

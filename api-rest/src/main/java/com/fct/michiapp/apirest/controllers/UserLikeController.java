@@ -63,10 +63,4 @@ public class UserLikeController {
 		chatLogRepository.save(cl);
 		return ResponseEntity.ok("User like Matched!");
 	}
-
-	@DeleteMapping("/deleteuserlike/{id}")
-	public ResponseEntity<String> deleteLike(@PathVariable Integer id) {
-		userLikeRepository.deleteById(id);
-		return ResponseEntity.ok("Like deleted");
-	}
 }
