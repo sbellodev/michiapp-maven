@@ -26,7 +26,7 @@ public class JPAConfig {
         LocalContainerEntityManagerFactoryBean em
                 = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] { "com.fct.michiapp.boot.*" });
+        em.setPackagesToScan(new String[] { "com.fct.michiapp.model.*" });
 
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);

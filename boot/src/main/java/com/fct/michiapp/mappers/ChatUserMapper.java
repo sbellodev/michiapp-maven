@@ -1,6 +1,6 @@
-package com.fct.michiapp.apirest.mappers;
+package com.fct.michiapp.mappers;
 
-import com.fct.michiapp.apirest.apimodels.GetChatUserResponse;
+import com.fct.michiapp.apimodels.GetChatUserResponse;
 import com.fct.michiapp.model.entities.queries.ChatsData;
 import org.mapstruct.Mapper;
 

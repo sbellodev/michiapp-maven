@@ -1,6 +1,6 @@
-package com.fct.michiapp.apirest.controllers;
+package com.fct.michiapp.controllers;
 
-import com.fct.michiapp.apirest.apimodels.AddAnimalRequest;
+import com.fct.michiapp.apimodels.AddAnimalRequest;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;

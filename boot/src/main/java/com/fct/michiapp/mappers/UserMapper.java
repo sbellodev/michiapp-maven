@@ -1,7 +1,7 @@
-package com.fct.michiapp.apirest.mappers;
+package com.fct.michiapp.mappers;
 
-import com.fct.michiapp.apirest.apimodels.AddUserRequest;
-import com.fct.michiapp.apirest.apimodels.GetUserResponse;
+import com.fct.michiapp.apimodels.AddUserRequest;
+import com.fct.michiapp.apimodels.GetUserResponse;
 import com.fct.michiapp.model.entities.Users;
 import com.fct.michiapp.model.entities.queries.UserAnimalData;
 import org.mapstruct.Mapper;

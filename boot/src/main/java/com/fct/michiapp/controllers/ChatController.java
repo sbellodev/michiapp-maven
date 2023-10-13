@@ -1,8 +1,8 @@
-package com.fct.michiapp.apirest.controllers;
+package com.fct.michiapp.controllers;
 
-import com.fct.michiapp.apirest.apimodels.*;
-import com.fct.michiapp.apirest.mappers.ChatLogMapper;
-import com.fct.michiapp.apirest.mappers.ChatUserMapper;
+import com.fct.michiapp.apimodels.*;
+import com.fct.michiapp.mappers.ChatLogMapper;
+import com.fct.michiapp.mappers.ChatUserMapper;
 import com.fct.michiapp.model.entities.ChatLog;
 import com.fct.michiapp.model.entities.queries.ChatsData;
 import com.fct.michiapp.model.repository.ChatLogRepository;

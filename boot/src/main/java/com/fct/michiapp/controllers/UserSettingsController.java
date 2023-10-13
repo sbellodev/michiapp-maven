@@ -1,9 +1,9 @@
-package com.fct.michiapp.apirest.controllers;
+package com.fct.michiapp.controllers;
 
-import com.fct.michiapp.apirest.apimodels.AddUserSettingsRequest;
-import com.fct.michiapp.apirest.apimodels.DeleteUserSettingsRequest;
-import com.fct.michiapp.apirest.apimodels.GetCityResponse;
-import com.fct.michiapp.apirest.mappers.CityMapper;
+import com.fct.michiapp.apimodels.AddUserSettingsRequest;
+import com.fct.michiapp.apimodels.DeleteUserSettingsRequest;
+import com.fct.michiapp.apimodels.GetCityResponse;
+import com.fct.michiapp.mappers.CityMapper;
 import com.fct.michiapp.model.entities.Animal;
 import com.fct.michiapp.model.entities.City;
 import com.fct.michiapp.model.entities.Users;

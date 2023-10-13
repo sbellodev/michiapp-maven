@@ -1,7 +1,7 @@
-package com.fct.michiapp.apirest.mappers;
+package com.fct.michiapp.mappers;
 
 
-import com.fct.michiapp.apirest.apimodels.GetCityResponse;
+import com.fct.michiapp.apimodels.GetCityResponse;
 import com.fct.michiapp.model.entities.City;
 import org.mapstruct.Mapper;
 

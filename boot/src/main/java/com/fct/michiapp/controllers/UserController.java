@@ -1,8 +1,8 @@
-package com.fct.michiapp.apirest.controllers;
+package com.fct.michiapp.controllers;
 
-import com.fct.michiapp.apirest.apimodels.GetUserResponse;
-import com.fct.michiapp.apirest.apimodels.AddUserRequest;
-import com.fct.michiapp.apirest.mappers.UserMapper;
+import com.fct.michiapp.apimodels.GetUserResponse;
+import com.fct.michiapp.apimodels.AddUserRequest;
+import com.fct.michiapp.mappers.UserMapper;
 import com.fct.michiapp.model.entities.Animal;
 import com.fct.michiapp.model.entities.AnimalImage;
 import com.fct.michiapp.model.entities.Users;

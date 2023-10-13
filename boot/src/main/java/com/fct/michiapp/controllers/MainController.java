@@ -1,4 +1,4 @@
-package com.fct.michiapp.apirest.controllers;
+package com.fct.michiapp.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

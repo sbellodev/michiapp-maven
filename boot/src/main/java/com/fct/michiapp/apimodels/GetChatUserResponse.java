@@ -1,4 +1,4 @@
-package com.fct.michiapp.apirest.apimodels;
+package com.fct.michiapp.apimodels;
 import java.io.Serializable;
 
 

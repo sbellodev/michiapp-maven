@@ -1,6 +1,6 @@
-package com.fct.michiapp.apirest.mappers;
+package com.fct.michiapp.mappers;
 
-import com.fct.michiapp.apirest.apimodels.GetUserLikeResponse;
+import com.fct.michiapp.apimodels.GetUserLikeResponse;
 import com.fct.michiapp.model.entities.UserLike;
 import org.mapstruct.Mapper;
 

@@ -1,8 +1,8 @@
-package com.fct.michiapp.apirest.controllers;
+package com.fct.michiapp.controllers;
 
-import com.fct.michiapp.apirest.apimodels.AddUserLikeRequest;
-import com.fct.michiapp.apirest.apimodels.GetUserLikeResponse;
-import com.fct.michiapp.apirest.mappers.UserLikeMapper;
+import com.fct.michiapp.apimodels.AddUserLikeRequest;
+import com.fct.michiapp.apimodels.GetUserLikeResponse;
+import com.fct.michiapp.mappers.UserLikeMapper;
 import com.fct.michiapp.model.entities.ChatLog;
 import com.fct.michiapp.model.entities.ChatUser;
 import com.fct.michiapp.model.entities.UserLike;
