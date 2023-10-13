@@ -1,10 +1,5 @@
 # Proyecto fin de ciclo
 
-_Santi Bello_
-
-_Desenvolvemento de Aplicacións Web, IES San Clemente 2021-2022_
-
-
 ## Descripción
 
 A casi todo o mundo gústanlle os animais, encontrárseos e conocer a outras persoas amantes dos animais. Pero é moi difícil ir máis alá de ver un gato descoñecido nunha ventá ou o veciño pasear ó seu can, e interactuar con eles.
@@ -58,13 +53,8 @@ Michiapp ofrece a oportunidade de coñecer tanto ás mascotas como os donos mái
 En Michiapp, o usuario pode ver qué mascotas están cerca del, e ten a posibilidade de interactuar vía chat co dono.
 Para iso o usuario deberá premer o botón "Gustar" na mascota que desexa e, se o dono fai o mesmo, terán a posibilidade de chatear con él.
 
-## Sobre el autor
-
-Santi Bello é un desenvolvedor de software de Galicia (España), actualmente cursando un Ciclo Superior de Desenvolvemento de Aplicacións Web. Dedicouse anos de voluntariado e meses de experiencia tanto no Frontend como no Backend, decantándose máis por éste último.
-Tecnoloxías preferidas: Java, PHP, React.
-
 Para máis información e contacto:
 
-[Web Personal](https://sbellodev.github/)
+[Web Personal](https://santibello.github/)
 
 [sbellodev@gmail.com](mailto:sbellodev@gmail.com)
