@@ -4,11 +4,11 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 #
-COPY frontend/src/main/react/package*.json ./
-RUN apt-get update && apt-get install -y nodejs npm
-RUN npm install
-COPY frontend/src/main/react ./
-RUN npm run build
+#COPY frontend/src/main/react/package*.json ./
+#RUN apt-get update && apt-get install -y nodejs npm
+#RUN npm install
+#COPY frontend/src/main/react ./
+#RUN npm run build
 
 # Final stage
 FROM adoptopenjdk:11-jre-hotspot
