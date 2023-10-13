@@ -12,6 +12,8 @@ RUN mvn clean package -DskipTests
 
 # Final stage
 FROM adoptopenjdk:11-jre-hotspot
+# Set the JVM heap size to limit memory usage
+ENV JAVA_OPTS="-Xmx512m -Xms512m"
 COPY --from=build boot/target/boot-0.0.1-SNAPSHOT.jar demo.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "demo.jar"]
